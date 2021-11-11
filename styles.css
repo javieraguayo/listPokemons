@@ -1,0 +1,39 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+}
+
+body {
+    background-image: url(img/poliwar.jpeg);
+    background-position: center top;
+    background-size: 100% auto;
+    background: cover;
+}
+
+html {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+body {
+    padding: 1rem;
+    overflow: auto;
+}
+
+#myInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 40%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    float: right;
+}
