@@ -16,15 +16,15 @@
 
 <body>
     <div ng-app="example" ng-controller="table" style="height: 100%;">
-        <div style="padding: 4px">
-            <div style="padding: 4px; margin-bottom: 5px;">
+        <div>
+            <div>
                 <h1>Pokemons List</h1>
             </div>
             <div>
                 <input id="myInput" type="text" ng-model="gridOptions.quickFilterText" placeholder="Search">
                 <div style="clear: both;">
                 </div>
-                <div style="width: 100%; height: 450px;" ag-grid="gridOptions" class="ag-theme-alpine ag-basic">
+                <div ag-grid="gridOptions" class="ag-theme-alpine ag-basic">
                 </div>
             </div>
         </div>
